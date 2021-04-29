@@ -17,10 +17,8 @@ An android app for interactive remote control of a DeskCNC milling machine.
 
 https://user-images.githubusercontent.com/44381886/116580566-c6d12480-a913-11eb-8573-c649cd306992.mp4
 
-
 # Limitations
 - This in in an early alpha state and highly unstable
-- The coordinate plane in which you draw movements (XY-plane, or XZ or YZ) has to be defined before entering draw mode. Very important: The third coordinate / the position of the tool in the dimension in which you do not draw (for instance the Y position of the XZ drawing plane), has to be defined (by positioning the tool there) also BEFORE entering draw more.
 
 # Installation and Usage
 - Install [app-release.apk](app/release/app-release.apk) on your phone
@@ -33,3 +31,7 @@ https://user-images.githubusercontent.com/44381886/116580566-c6d12480-a913-11eb-
 - Make sure that your phone is in the same wifi / local network / VPN as the host machine, and that no firewall blocks direct connections to the host
 - Start the app on the phone (username does not matter), scan the QR code displayed on the host
 - Use buttons or draw mode to control the machine (in debug mode the G-Code commands which would be executed are printed to the terminal on the host machine)
+
+# Usage Hints
+- The coordinate plane in which you draw movements (XY-plane, or XZ or YZ) has to be defined before entering draw mode.
+- Very important: The third coordinate / the position of the tool in the dimension in which you do not draw (for instance the Y position of the XZ drawing plane), has to be defined (by positioning the tool there) also BEFORE entering draw more.
