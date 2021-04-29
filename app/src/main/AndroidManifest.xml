@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.hofalab.hofalapp">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity
+            android:name=".CNCLoginActivity"
+            android:label="@string/title_activity_CNC_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RemoteControlActivity"
+            android:label="@string/title_activity_remote_control"
+            android:parentActivityName=".CNCLoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hofalab.hofalapp.CNCLoginActivity" />
+        </activity>
+
+        <activity
+            android:name=".DrawControlActivity"
+            android:label="@string/title_activity_draw_control"
+            android:parentActivityName=".RemoteControlActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hofalab.hofalapp.RemoteControlActivity" />
+        </activity>
+    </application>
+
+</manifest>

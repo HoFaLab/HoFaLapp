@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HoFaLapp</string>
+
+    <!-- Strings related to cnclogin -->
+    <string name="title_activity_CNC_login">HoFaLapp CNC Login</string>
+    <string name="image_description">Image preview</string>
+    <string name="prompt_username">Choose a username</string>
+    <string name="action_take_image">1. Take image</string>
+    <string name="action_scan_qr">2. Scan QR code</string>
+    <string name="success">" .. success!"</string>
+    <string name="failed">" .. failed!"</string>
+    <string name="action_connect_to_CNC">3. Connect to CNC device</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_no_camera">Device has no camera</string>
+    <string name="error_no_camera_app">No camera app found</string>
+
+    <!-- Strings related to remote control activity -->
+    <string name="title_activity_remote_control">HoFaLapp CNC Remote</string>
+    <string name="enter_gcode">Enter GCode here</string>
+    <string name="action_send_gcode">Execute</string>
+    <string name="action_draw_mode">Draw mode</string>
+    <string name="gcode_busy">Executing…</string>
+    <string-array name="coord_plane_entries">
+        <item>XY</item>
+        <item>XZ</item>
+        <item>YZ</item>
+    </string-array>
+    <string-array name="step_width">
+        <item>0.1 mm</item>
+        <item>1 mm</item>
+        <item>1 cm</item>
+        <item>10 cm</item>
+    </string-array>
+    <string name="button_spindle">Spindle</string>
+    <string name="button_tilt">Tilt control</string>
+
+    <!-- Strings related to draw control activity -->
+    <string name="title_activity_draw_control">HoFaLapp CNC Remote</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_execute">Execute</string>
+    <string name="execute_busy">Running…</string>
+    <string name="draw_description">Draw here</string>
+
+</resources>
