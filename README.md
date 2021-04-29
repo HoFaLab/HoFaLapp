@@ -9,6 +9,7 @@ An android app for interactive remote control of a DeskCNC milling machine.
 
 # Features
 - Automatic network configuration and connection setup between android phone and CNC device host, local IP adress is transfered to the phone via QR code.
+- Works offline, without internet connection 
 - Arbitrary G-Code commands can be entered directly on the phone, they are executed by the CNC device
 - Remote control mode with GUI, buttons on the phone are used to move the milling tool manually
 - Tilt control mode, where your phones gravity sensor determines the movements of the machine
