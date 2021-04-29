@@ -12,7 +12,7 @@ An android app for interactive remote control of a DeskCNC milling machine.
 - Works offline, without internet connection 
 - Arbitrary G-Code commands can be entered directly on the phone, they are executed by the CNC device
 - Remote control mode with GUI, buttons on the phone are used to move the milling tool manually
-- Tilt control mode, where your phones gravity sensor determines the movements of the machine
+- Tilt control mode, where the gravity sensor of your smartphone determines the movements of the machine
 - Interactive graphical mode where you draw on your touchscreen, and the CNC machine moves the tool accordingly
 
 https://user-images.githubusercontent.com/44381886/116580566-c6d12480-a913-11eb-8573-c649cd306992.mp4
